@@ -1,0 +1,22 @@
+.midContainer {
+  max-width: 1044px;
+}
+.smallContainer {
+  max-width: 950px;
+}
+.largeContainer {
+  max-width: 1276px;
+}
+.cardContainer {
+  max-width: 600px;
+  border: 1px solid black;
+  padding: 10px;
+}
+.largeContainer,
+.midContainer,
+.smallContainer,
+.cardContainer {
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
+}
